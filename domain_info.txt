@@ -1,0 +1,13 @@
+EC2 LOAD BALANCER INFO 1
+Hosted ID: Z33MTJ483KN6FU
+VPC ID: vpc-9de65bf8
+Instance ID: i-e7c41411
+Name: aksite-env
+Availability zone: us-west-2a
+DNS Name 1: awseb-e-g-AWSEBLoa-17R6G19APBEI6-1878592240.us-west-2.elb.amazonaws.com
+DNS Name 2: internal-alyssakeimach-1299317902.us-west-2.elb.amazonaws.com
+
+ROUTE 53 HOSTED ZONE INFO
+Beanstalk CNAME: aksite-env.elasticbeanstalk.com.http://aksite-env.elasticbeanstalk.com/.
+Alias name: ALIAS dualstack.awseb-e-g-awsebloa-17r6g19apbei6-1878592240.us-west-2.elb.amazonaws.com. (z1h1fl5habsf5)
+

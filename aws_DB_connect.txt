@@ -1,0 +1,12 @@
+--index.php--
+$user = 'aksiteadmin';
+$password = 'projectpass';
+$db = 'projDB or articleDB';
+$host = 'aa1diu7vrd5d8v.ciacvodjbmo9.us-west-2.rds.amazonaws.com';
+
+--project_editor.php--
+$opts['hn'] = 'aa1diu7vrd5d8v.ciacvodjbmo9.us-west-2.rds.amazonaws.com';
+$opts['un'] = 'aksiteadmin';
+$opts['pw'] = 'projectpass';
+$opts['db'] = 'projDB or article DB';
+$opts['tb'] = 'project';

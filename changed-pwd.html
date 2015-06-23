@@ -1,0 +1,29 @@
+<?PHP
+require_once("./include/membersite_config.php");
+if(isset($_POST['submitted'])) {
+    if($fgmembersite->Login()) {
+        $fgmembersite->RedirectToURL("login-home.php");
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<?php include "header.php"; ?>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<?php include "header.php"; ?>
+<body>
+<body>
+<div id='fg_membersite_content'>
+<h2>Changed password</h2>
+Your password is updated!
+
+<p>
+<a href='logout.php'>logout</a>
+</p>
+
+</div>
+</body>
+</html>
